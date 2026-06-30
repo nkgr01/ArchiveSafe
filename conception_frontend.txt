@@ -1,0 +1,689 @@
+PHASE 0 — LANDING PAGE OFFICIELLE D'ARCHIVESAFE
+
+
+
+CONTEXTE
+
+
+
+Le backend ArchiveSafe est terminé.
+
+
+
+L'architecture frontend est validée.
+
+
+
+Avant de commencer le développement des modules internes, je souhaite créer la première page visible par tous les visiteurs.
+
+
+
+Cette page sera la vitrine officielle d'ArchiveSafe.
+
+
+
+Elle doit inspirer immédiatement confiance et professionnalisme.
+
+
+
+Elle doit donner envie de créer un compte.
+
+
+
+---
+Pallette de couleur :
+
+:root { --navy: #0F2347; /* Fond principal */ 
+--navy-mid: #1A3560; /* Dégradés de fond */ 
+--navy-light: #24487A; /* Accents et icônes */ 
+--gold: #C8A327; /* CTA principaux, logos, chiffres clés */ 
+--gold-light: #E8C250; /* États hover, badges */ 
+--gold-pale: #F5EBC8; /* Fond bouton hover */
+ --cream: #FAF7F0; /* Fond sections claires */
+ --text: #1A1A2E; /* Texte de lecture sombre */ 
+--text-mid: #4A4A6A; /* Textes secondaires */
+ --white: #FFFFFF; /* Texte sur fond sombre, fond cartes */ 
+--footer-bg: #080F1C; /* Fond pied de page */ }
+--Success → vert
+--Warning → orange
+--Error → rouge
+-----
+
+MISSION
+
+
+
+Créer physiquement le fichier :
+
+
+
+public/index.php
+
+
+
+Cette page sera la page d'accueil publique de la plateforme.
+
+
+
+---
+
+
+
+OBJECTIFS
+
+
+
+Créer une Landing Page Premium.
+
+
+
+Ne pas faire une simple page de bienvenue.
+
+
+
+L'objectif est de présenter ArchiveSafe comme une solution moderne de gestion documentaire intelligente.
+
+
+
+---
+
+
+
+STYLE
+
+
+
+Professionnel
+
+
+
+Épuré
+
+
+
+Moderne
+
+
+
+Entreprise
+
+
+
+Premium
+
+
+
+Responsive
+
+
+
+Rapide
+
+
+
+Accessible
+
+
+
+---
+
+
+
+CONTENU
+
+
+
+Créer plusieurs sections :
+
+
+
+1. Hero Section
+
+- Nom : ArchiveSafe
+
+- Un slogan fort orienté gestion documentaire intelligente.
+
+- Un court texte de présentation.
+
+- Deux boutons d'appel à l'action :
+
+    - Créer un compte
+
+    - Se connecter
+
+
+
+2. Pourquoi ArchiveSafe ?
+
+Présenter les bénéfices utilisateurs sans parler des technologies.
+
+
+
+Exemples :
+
+
+
+- Centralisez tous vos documents.
+
+- Retrouvez un document en quelques secondes.
+
+- Automatisez votre organisation.
+
+- Travaillez en toute sécurité.
+
+- Gagnez du temps.
+
+
+
+3. Fonctionnalités
+
+
+
+Présenter les principales fonctionnalités :
+
+
+
+- Gestion documentaire
+
+- Classement intelligent
+
+- Recherche avancée
+
+- OCR
+
+- Résumé automatique
+
+- Questions/Réponses sur les documents
+
+- Historique
+
+- Audit
+
+- Gestion des utilisateurs
+
+- Sécurité
+
+
+
+Sans mentionner les technologies utilisées.
+
+
+
+4. Cas d'utilisation
+
+
+
+Présenter les secteurs pouvant utiliser ArchiveSafe :
+
+
+
+- Entreprises
+
+- Cabinets comptables
+
+- Cabinets juridiques
+
+- Administrations
+
+- Hôpitaux
+
+- Écoles
+
+- Associations
+
+- PME
+
+
+
+5. Sécurité
+
+
+
+Présenter les engagements :
+
+
+
+- Protection des données
+
+- Contrôle des accès
+
+- Traçabilité
+
+- Sauvegarde
+
+- Confidentialité
+
+
+
+6. Appel à l'action
+
+
+
+Créer une section finale encourageant le visiteur à rejoindre la plateforme.
+
+
+
+Deux boutons :
+
+
+
+- Créer un compte
+
+- Se connecter
+
+
+
+7. Footer
+
+
+
+Créer un footer professionnel contenant :
+
+
+
+- ArchiveSafe
+
+- Copyright dynamique
+
+- Politique de confidentialité
+
+- Conditions d'utilisation
+
+- Contact
+
+
+
+---
+
+
+
+DESIGN
+
+
+
+Le design doit être digne d'un logiciel SaaS moderne.
+
+
+
+Utiliser :
+
+
+
+- PrimeVue
+
+- PrimeFlex/Tailwind (selon l'architecture validée)
+
+- PrimeIcons
+
+
+
+Le rendu doit être élégant avec :
+
+
+
+- cartes
+
+- icônes
+
+- animations discrètes
+
+- couleurs harmonieuses
+
+- espaces généreux
+
+- responsive
+
+
+
+---
+
+
+
+IMPORTANT
+
+
+
+Ne jamais afficher :
+
+
+
+- PHP
+
+- Laravel
+
+- Vue
+
+- MySQL
+  
+
+
+
+Le visiteur ne doit voir qu'un produit professionnel.
+
+
+
+---
+
+
+
+À la fin :
+
+
+
+Créer également :
+
+
+
+LANDING_PAGE_REPORT.md
+
+
+
+contenant :
+
+
+
+- les sections créées
+
+- les composants utilisés
+
+- les liens prévus vers l'inscription et la connexion
+
+
+
+
+
+# FRONTEND BUILD — PHASE 1
+
+
+
+Le design frontend est validé.
+
+
+
+Les documents d'architecture sont validés.
+
+
+
+Nous commençons maintenant le développement réel.
+
+
+
+IMPORTANT
+
+
+
+Tu dois écrire physiquement tous les fichiers dans le dossier frontend/.
+
+
+
+Ne plus produire uniquement du code dans la conversation.
+
+
+
+Modifier directement les fichiers.
+
+
+
+Respecter strictement l'arborescence validée.
+
+
+
+Ne jamais créer un fichier qui n'appartient pas à cette phase.
+
+
+
+Ne jamais générer plusieurs phases.
+
+
+
+Ne jamais modifier le backend.
+
+
+
+---
+
+
+
+## STACK
+
+
+
+Vue 3
+
+
+
+TypeScript
+
+
+
+Vite
+
+
+
+PrimeVue
+
+
+
+PrimeIcons
+
+
+
+Tailwind CSS
+
+
+
+Pinia
+
+
+
+Vue Router
+
+
+
+Axios
+
+
+
+Laravel Sanctum
+
+
+
+---
+
+
+
+## OBJECTIF
+
+
+
+Construire uniquement les fondations du frontend.
+
+
+
+Aucune page métier.
+
+
+
+Aucun composant métier.
+
+
+
+Uniquement l'infrastructure.
+
+
+
+---
+
+
+
+## FICHIERS À CRÉER
+
+
+
+Créer uniquement :
+
+
+
+package.json
+
+
+
+vite.config.ts
+
+
+
+tsconfig.json
+
+
+
+tailwind.config.js
+
+
+
+postcss.config.js
+
+
+
+.env.example
+
+
+
+src/main.ts
+
+
+
+src/App.vue
+
+
+
+src/router/index.ts
+
+
+
+src/plugins/primevue.ts
+
+
+
+src/plugins/axios.ts
+
+
+
+src/stores/auth.ts
+
+
+
+src/stores/theme.ts
+
+
+
+src/services/api.ts
+
+
+
+src/assets/
+
+
+
+src/styles/
+
+
+
+src/types/
+
+
+
+---
+
+
+
+Configurer :
+
+
+
+PrimeVue
+
+
+
+PrimeIcons
+
+
+
+Tailwind
+
+
+
+Axios
+
+
+
+Pinia
+
+
+
+Vue Router
+
+
+
+Theme global
+
+
+
+Dark Mode
+
+
+
+Layouts vides
+
+
+
+---
+
+
+
+À la fin :
+
+
+
+Créer PHASE1_REPORT.md
+
+
+
+contenant :
+
+
+
+* fichiers créés
+
+* dépendances installées
+
+* architecture obtenue
+
+* état du projet
+
+
+
+Puis arrêter.
+
+
+
+Ensuite
+
+
+
+Quand la phase 1 sera terminée, tu passeras à :
+
+
+
+Phase 2 : Layouts
+
+Phase 3 : Authentification
+
+Phase 4 : Dashboard
+
+Phase 5 : Documents
+
+Phase 6 : Upload + OCR
+
+Phase 7 : IA
+
+Phase 8 : Administration 

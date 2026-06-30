@@ -1,0 +1,48 @@
+
+Warning: Module "mysqli" is already loaded in Unknown on line 0
+
+Warning: PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: C:/laragon/bin/php/php-8.3.30-Win32-vs16-x64/ext\pdo_oci (Le module spécifié est introuvable), C:/laragon/bin/php/php-8.3.30-Win32-vs16-x64/ext\php_pdo_oci.dll (Le module spécifié est introuvable)) in Unknown on line 0
+
+  GET|HEAD  / ................................................................ 
+  GET|HEAD  api/admin/system/logs ...................... SystemController@logs
+  GET|HEAD  api/admin/system/queue .................... SystemController@queue
+  GET|HEAD  api/admin/system/redis .................... SystemController@redis
+  GET|HEAD  api/admin/system/settings .............. SystemController@settings
+  PUT       api/admin/system/settings .............. SystemController@settings
+  GET|HEAD  api/admin/system/status .................. SystemController@status
+  GET|HEAD  api/admin/system/storage ................ SystemController@storage
+  GET|HEAD  api/admin/users ............................. UserController@index
+  POST      api/admin/users ............................. UserController@store
+  GET|HEAD  api/admin/users/{id} ......................... UserController@show
+  PUT       api/admin/users/{id} ....................... UserController@update
+  DELETE    api/admin/users/{id} ...................... UserController@destroy
+  GET|HEAD  api/ai/analyze/{id} ......................... AIController@analyze
+  POST      api/ai/chat/{id} ............................... AIController@chat
+  GET|HEAD  api/ai/explore .............................. AIController@explore
+  GET|HEAD  api/ai/suggest-tags/{id} ........... SummaryController@suggestTags
+  GET|HEAD  api/ai/summarize/{id} ................ SummaryController@summarize
+  GET|HEAD  api/audit-logs .......................... AuditLogController@index
+  GET|HEAD  api/audit-logs/action/{action} .... AuditLogController@getByAction
+  GET|HEAD  api/audit-logs/model/{modelType}/{modelId} AuditLogController@get…
+  GET|HEAD  api/audit-logs/{id} ...................... AuditLogController@show
+  GET|HEAD  api/dashboard .......................... DashboardController@index
+  GET|HEAD  api/documents ........................... DocumentController@index
+  GET|HEAD  api/documents/trash ..................... DocumentController@trash
+  GET|HEAD  api/documents/{id} ....................... DocumentController@show
+  PUT       api/documents/{id} ..................... DocumentController@update
+  DELETE    api/documents/{id} .................... DocumentController@destroy
+  DELETE    api/documents/{id}/force-delete ... DocumentController@forceDelete
+  POST      api/documents/{id}/restore ............ DocumentController@restore
+  POST      api/forgot-password ................ AuthController@forgotPassword
+  POST      api/login ................................... AuthController@login
+  POST      api/logout ................................. AuthController@logout
+  GET|HEAD  api/me ......................................... AuthController@me
+  POST      api/register ............................. AuthController@register
+  POST      api/reset-password .................. AuthController@resetPassword
+  POST      api/upload ............................... UploadController@upload
+  GET|HEAD  api/upload/status/{id} ................... UploadController@status
+  GET|HEAD  sanctum/csrf-cookie sanctum.csrf-cookie › Laravel\Sanctum › CsrfC…
+  GET|HEAD  up ............................................................... 
+
+                                                           Showing [40] routes
+
