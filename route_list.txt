@@ -1,8 +1,3 @@
-
-Warning: Module "mysqli" is already loaded in Unknown on line 0
-
-Warning: PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: C:/laragon/bin/php/php-8.3.30-Win32-vs16-x64/ext\pdo_oci (Le module spécifié est introuvable), C:/laragon/bin/php/php-8.3.30-Win32-vs16-x64/ext\php_pdo_oci.dll (Le module spécifié est introuvable)) in Unknown on line 0
-
   GET|HEAD  / ................................................................ 
   GET|HEAD  api/admin/system/logs ...................... SystemController@logs
   GET|HEAD  api/admin/system/queue .................... SystemController@queue
@@ -45,4 +40,3 @@ Warning: PHP Startup: Unable to load dynamic library 'pdo_oci' (tried: C:/larago
   GET|HEAD  up ............................................................... 
 
                                                            Showing [40] routes
-
