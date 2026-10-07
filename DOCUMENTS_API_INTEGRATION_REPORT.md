@@ -21,7 +21,9 @@ Le module de gestion documentaire est désormais entièrement connecté au backe
 #### DocumentController
 - **`index`** : Implémentation du Lazy Loading avec support de la recherche plein texte, du tri dynamique et du filtrage par statut/type. La réponse est formatée pour PrimeVue (`data`, `totalRecords`, `rows`).
 - **`update`** : Ajout du support pour la mise à jour partielle du titre et la fusion des métadonnées JSON (tags, correspondants).
-- **Corbeille** : Implémentation complète du cycle de vie Soft-Delete $ightarrow$ Restore $ightarrow$ ForceDelete.
+- **Corbeille** : Implémentation complète du cycle de vie Soft-Delete $
+ightarrow$ Restore $
+ightarrow$ ForceDelete.
 
 ### 3. Modifications Frontend (Vue 3 / TS)
 
@@ -45,10 +47,9 @@ Le module de gestion documentaire est désormais entièrement connecté au backe
 ### 4. Vérifications Réalisées
 - [x] Pagination serveur et tri fonctionnels.
 - [x] Recherche plein texte efficace sur titres et contenus.
-- [x] Cycle complet : Upload $ightarrow$ Consultation $ightarrow$ Suppression $ightarrow$ Restauration.
+- [x] Cycle complet : Upload $
+ightarrow$ Consultation $
+ightarrow$ Suppression $
+ightarrow$ Restauration.
 - [x] Suppression définitive irréversible.
 - [x] Affichage correct des métadonnées et du résumé IA.
-
-### 5. État Final
-**Statut : TERMINÉ**
-La gestion documentaire est totalement opérationnelle, performante (Lazy Loading) et synchronisée avec le backend.
