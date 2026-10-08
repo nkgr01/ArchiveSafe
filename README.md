@@ -13,6 +13,14 @@
 
 ---
 
+## ⚠️ Statut du projet
+
+> **🔔 Version 1.0 - Projet en développement actif**
+> 
+> ArchiveSafe est actuellement en **première version (v1.0)**. Le projet a été récemment lancé et demande **constamment des améliorations et des optimisations**. Votre feedback et vos contributions sont essentiels pour nous aider à créer une meilleure plateforme ! 🚀
+
+---
+
 ## 📋 À propos du projet
 
 **ArchiveSafe** est une plateforme moderne et sécurisée d'archivage de documents avec intelligence artificielle intégrée. Elle permet aux organisations de gérer, classer et analyser leurs archives de manière intelligente et efficace.
@@ -381,7 +389,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 📧 Support et contact
 
 Pour toute question ou support :
-- 📧 Email : contact@archivesafe.com
+- 📧 Email : ashimadison8@gmail.com
 - 🐛 Issues : [GitHub Issues](https://github.com/nkgr01/ArchiveSafe/issues)
 - 💬 Discussions : [GitHub Discussions](https://github.com/nkgr01/ArchiveSafe/discussions)
 
